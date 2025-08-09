@@ -1,4 +1,4 @@
-# Vita Kernel Plugin Installer for PlayStation Vita
+# Vita Kernel Plugin Installer
 
 Ever run into this situation?
 "Oh hey, look theres this really cool kernel plugin that... doesn't have an installer"
