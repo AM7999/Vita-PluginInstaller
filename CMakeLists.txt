@@ -23,6 +23,7 @@ set(VITA_MKSFOEX_FLAGS "${VITA_MKSFOEX_FLAGS} -d PARENTAL_LEVEL=1")
 
 include_directories(
     include
+    3rdparty
     /usr/local/vitasdk/arm-vita-eabi/include
 )
 

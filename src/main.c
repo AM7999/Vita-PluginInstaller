@@ -29,9 +29,13 @@
 #include <psp2/vshbridge.h>
 #include "graphics.h"
 
-// macro //
+#include <3rdparty/iniparser/src/iniparser.h>
+
+// macros //
 #define printf psvDebugScreenPrintf
 #define clear() printf("\033[2J\033[1;1H");
+
+
 
 int main() {
 	int selected = 0;
