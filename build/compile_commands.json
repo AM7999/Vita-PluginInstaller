@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/angel/Desktop/Plugin-Installer/build",
+  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc  -I/home/angel/Desktop/Plugin-Installer/include  -Wl,-q -Wall -o CMakeFiles/kPlugin_Installer.dir/src/main.c.obj -c /home/angel/Desktop/Plugin-Installer/src/main.c",
+  "file": "/home/angel/Desktop/Plugin-Installer/src/main.c",
+  "output": "CMakeFiles/kPlugin_Installer.dir/src/main.c.obj"
+},
+{
+  "directory": "/home/angel/Desktop/Plugin-Installer/build",
+  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc  -I/home/angel/Desktop/Plugin-Installer/include  -Wl,-q -Wall -o CMakeFiles/kPlugin_Installer.dir/src/font.c.obj -c /home/angel/Desktop/Plugin-Installer/src/font.c",
+  "file": "/home/angel/Desktop/Plugin-Installer/src/font.c",
+  "output": "CMakeFiles/kPlugin_Installer.dir/src/font.c.obj"
+},
+{
+  "directory": "/home/angel/Desktop/Plugin-Installer/build",
+  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc  -I/home/angel/Desktop/Plugin-Installer/include  -Wl,-q -Wall -o CMakeFiles/kPlugin_Installer.dir/src/graphics.c.obj -c /home/angel/Desktop/Plugin-Installer/src/graphics.c",
+  "file": "/home/angel/Desktop/Plugin-Installer/src/graphics.c",
+  "output": "CMakeFiles/kPlugin_Installer.dir/src/graphics.c.obj"
+}
+]
