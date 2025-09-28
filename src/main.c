@@ -169,23 +169,23 @@ int main() {
         	fwrite(buff, 1, bytes2, config);
         }
         // sending the string "ur0:tai/kernel_plugin.skprx" to the buffer
-				//snprintf(buff, sizeof(buff), "#kern_example\n*KERNEL\nur0:tai/kernel_plugin.skprx\n#---------------\n");
-				// writing to the file
-				//fputs(buff, config);
-				// close to free memory
-				fclose(config);
+        // snprintf(buff, sizeof(buff), "#kern_example\n*KERNEL\nur0:tai/kernel_plugin.skprx\n#---------------\n");
+        // writing to the file
+        // fputs(buff, config);
+        // close to free memory
+        fclose(config);
 
-				// Change the foreground color to green so text prints green
-				psvDebugScreenSetFgColor(COLOR_GREEN);
-				printf("Plugin Installed successfully!\n");
-				// Resetting the colors to print everything else normally
-				psvDebugScreenSetFgColor(COLOR_WHITE);
-				printf("Press X to continue...\n");
-				while(true) {
-					sceCtrlPeekBufferPositive(0, &pad, 1);
-					if(pad.buttons & SCE_CTRL_CROSS) break;
-					sceKernelDelayThread(10000);
-				}
+        // Change the foreground color to green so text prints green
+        psvDebugScreenSetFgColor(COLOR_GREEN);
+        printf("Plugin Installed successfully!\n");
+        // Resetting the colors to print everything else normally
+        psvDebugScreenSetFgColor(COLOR_WHITE);
+        printf("Press X to continue...\n");
+        while(true) {
+        	sceCtrlPeekBufferPositive(0, &pad, 1);
+        	if(pad.buttons & SCE_CTRL_CROSS) break;
+        	sceKernelDelayThread(10000);
+        }
       }
       if(selected == 1)
       	return scePowerRequestColdReset();

@@ -4,8 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${VITASDK}/arm-vita-eabi/include",
-                "${workspaceFolder}/3rdparty/**"
+                "${VITASDK}/arm-vita-eabi/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

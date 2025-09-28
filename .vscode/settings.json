@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "graphics.h": "c"
+        "graphics.h": "c",
+        "string": "c",
+        "string_view": "c",
+        "notificationutil.h": "c"
     }
 }
