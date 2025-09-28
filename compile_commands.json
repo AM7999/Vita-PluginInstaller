@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/xenia/Devel/C/Plugin-Installer/build",
+  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc  -I/home/xenia/Devel/C/Plugin-Installer/include -I/home/xenia/Devel/C/Plugin-Installer/3rdparty  -Wl,-q -Wall -o CMakeFiles/kPlugin_Installer.dir/src/main.c.obj -c /home/xenia/Devel/C/Plugin-Installer/src/main.c",
+  "file": "/home/xenia/Devel/C/Plugin-Installer/src/main.c",
+  "output": "CMakeFiles/kPlugin_Installer.dir/src/main.c.obj"
+},
+{
+  "directory": "/home/xenia/Devel/C/Plugin-Installer/build",
+  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc  -I/home/xenia/Devel/C/Plugin-Installer/include -I/home/xenia/Devel/C/Plugin-Installer/3rdparty  -Wl,-q -Wall -o CMakeFiles/kPlugin_Installer.dir/src/font.c.obj -c /home/xenia/Devel/C/Plugin-Installer/src/font.c",
+  "file": "/home/xenia/Devel/C/Plugin-Installer/src/font.c",
+  "output": "CMakeFiles/kPlugin_Installer.dir/src/font.c.obj"
+},
+{
+  "directory": "/home/xenia/Devel/C/Plugin-Installer/build",
+  "command": "/usr/local/vitasdk/bin/arm-vita-eabi-gcc  -I/home/xenia/Devel/C/Plugin-Installer/include -I/home/xenia/Devel/C/Plugin-Installer/3rdparty  -Wl,-q -Wall -o CMakeFiles/kPlugin_Installer.dir/src/graphics.c.obj -c /home/xenia/Devel/C/Plugin-Installer/src/graphics.c",
+  "file": "/home/xenia/Devel/C/Plugin-Installer/src/graphics.c",
+  "output": "CMakeFiles/kPlugin_Installer.dir/src/graphics.c.obj"
+}
+]
