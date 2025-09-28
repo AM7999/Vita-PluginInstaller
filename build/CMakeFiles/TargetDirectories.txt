@@ -1,6 +1,0 @@
-/home/angel/Desktop/Plugin-Installer/build/CMakeFiles/kPlugin_Installer.dir
-/home/angel/Desktop/Plugin-Installer/build/CMakeFiles/kPlugin_Installer-velf.dir
-/home/angel/Desktop/Plugin-Installer/build/CMakeFiles/kPlugin_Installer.self-self.dir
-/home/angel/Desktop/Plugin-Installer/build/CMakeFiles/kPlugin_Installer.vpk-vpk.dir
-/home/angel/Desktop/Plugin-Installer/build/CMakeFiles/edit_cache.dir
-/home/angel/Desktop/Plugin-Installer/build/CMakeFiles/rebuild_cache.dir
