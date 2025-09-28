@@ -40,8 +40,6 @@
 // macros //
 #define printf psvDebugScreenPrintf
 
-
-
 // !@-- ENTRY POINT --@! //
 int main() {
   // Menu variables
